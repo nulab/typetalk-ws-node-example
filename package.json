@@ -1,0 +1,12 @@
+{
+  "name": "typetalk-ws-example",
+  "version": "0.0.1",
+  "description": "Typetalk websocket example",
+  "main": "index.js",
+  "author": "Nulab Inc.",
+  "license": "MIT",
+  "devDependencies": {
+    "request": "^2.47.0",
+    "ws": "^0.4.32"
+  }
+}
