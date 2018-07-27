@@ -9,7 +9,7 @@ $ npm install
 
 #### Register an application
 
-[Create your application](https://typetalk.in/my/develop/applications/register) for using API.
+[Create your application](https://typetalk.com/my/develop/applications/register) for using API.
 
 Grant Type must be Client Credentials.
 

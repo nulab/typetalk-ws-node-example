@@ -11,7 +11,7 @@ if (!(client_id && client_secret)) {
 
 function issue_access_token(callback) {
   var options = {
-    url: "https://typetalk.in/oauth2/access_token",
+    url: "https://typetalk.com/oauth2/access_token",
     method: 'POST',
     headers:  {
       'Content-Type': 'application/x-www-form-urlencoded'
@@ -33,7 +33,7 @@ function issue_access_token(callback) {
 }
 
 function connect(access_token) {
-  var ws = new WebSocket("https://typetalk.in/api/v1/streaming", {
+  var ws = new WebSocket("https://typetalk.com/api/v1/streaming", {
     headers: {
       'Authorization': 'Bearer ' + access_token
     }
