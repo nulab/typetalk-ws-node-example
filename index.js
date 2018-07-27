@@ -33,7 +33,7 @@ function issue_access_token(callback) {
 }
 
 function connect(access_token) {
-  var ws = new WebSocket("https://typetalk.com/api/v1/streaming", {
+  var ws = new WebSocket("https://message.typetalk.com/api/v1/streaming", {
     headers: {
       'Authorization': 'Bearer ' + access_token
     }
