@@ -7,6 +7,6 @@
   "license": "MIT",
   "devDependencies": {
     "request": "^2.47.0",
-    "ws": "^0.4.32"
+    "ws": "^6.1.4"
   }
 }
